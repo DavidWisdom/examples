@@ -8,7 +8,7 @@ on:
 
 jobs:
   build_docs_job:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     # Grant write permission here so that the doc can be pushed to gh-pages branch
     permissions:
       contents: write
