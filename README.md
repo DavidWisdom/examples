@@ -15,24 +15,6 @@ https://pytorch.org/examples/
 ## Available models
 
 - [Image classification (MNIST) using Convnets](./mnist/README.md)
-- [Word-level Language Modeling using RNN and Transformer](./word_language_model/README.md)
-- [Training Imagenet Classifiers with Popular Networks](./imagenet/README.md)
-- [Generative Adversarial Networks (DCGAN)](./dcgan/README.md)
-- [Variational Auto-Encoders](./vae/README.md)
-- [Superresolution using an efficient sub-pixel convolutional neural network](./super_resolution/README.md)
-- [Hogwild training of shared ConvNets across multiple processes on MNIST](mnist_hogwild)
-- [Training a CartPole to balance in OpenAI Gym with actor-critic](./reinforcement_learning/README.md)
-- [Natural Language Inference (SNLI) with GloVe vectors, LSTMs, and torchtext](snli)
-- [Time sequence prediction - use an LSTM to learn Sine waves](./time_sequence_prediction/README.md)
-- [Implement the Neural Style Transfer algorithm on images](./fast_neural_style/README.md)
-- [Reinforcement Learning with Actor Critic and REINFORCE algorithms on OpenAI gym](./reinforcement_learning/README.md)
-- [PyTorch Module Transformations using fx](./fx/README.md)
-- Distributed PyTorch examples with [Distributed Data Parallel](./distributed/ddp/README.md) and [RPC](./distributed/rpc)
-- [Several examples illustrating the C++ Frontend](cpp)
-- [Image Classification Using Forward-Forward](./mnist_forward_forward/README.md)
-- [Language Translation using Transformers](./language_translation/README.md)
-
-
 
 Additionally, a list of good examples hosted in their own repositories:
 
