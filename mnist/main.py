@@ -103,10 +103,13 @@ def main():
 
     if use_cuda:
         device = torch.device("cuda")
+        print("Using CUDA device")
     elif use_mps:
         device = torch.device("mps")
+        print("Using MPS device")
     else:
         device = torch.device("cpu")
+        print("Using CPU device")
 
     train_kwargs = {'batch_size': args.batch_size}
     test_kwargs = {'batch_size': args.test_batch_size}
