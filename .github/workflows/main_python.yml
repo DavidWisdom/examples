@@ -28,6 +28,8 @@ jobs:
         pip install --pre torch torchvision -f https://download.pytorch.org/whl/nightly/cpu/torch_nightly.html
         # Maybe use the CUDA 10.2 version instead?
         # pip install --pre torch torchvision -f https://download.pytorch.org/whl/nightly/cu102/torch_nightly.html
+    - name: Ensure run_python_examples.sh has execute permissions
+      run: chmod +x ./run_python_examples.sh
     - name: Run Tests
       run: |
         ./run_python_examples.sh "install_deps,run_all,clean"
