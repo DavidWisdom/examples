@@ -39,29 +39,6 @@ function mnist() {
 function clean() {
   cd $BASE_DIR
   echo "running clean to remove cruft"
-  rm -rf dcgan/fake_samples_epoch_000.png \
-    dcgan/netD_epoch_0.pth \
-    dcgan/netG_epoch_0.pth \
-    dcgan/real_samples.png \
-    fast_neural_style/saved_models.zip \
-    fast_neural_style/saved_models/ \
-    imagenet/checkpoint.pth.tar \
-    imagenet/lsun/ \
-    imagenet/model_best.pth.tar \
-    imagenet/sample/ \
-	language_translation/output/ \
-    snli/.data/ \
-    snli/.vector_cache/ \
-    snli/results/ \
-    super_resolution/dataset/ \
-    super_resolution/model_epoch_1.pth \
-    time_sequence_prediction/predict*.pdf \
-    time_sequence_prediction/traindata.pt \
-    word_language_model/model.pt \
-    gcn/cora/ \
-    gat/cora/ || error "couldn't clean up some files"
-
-  git checkout fast_neural_style/images/output-images/amber-candy.jpg || error "couldn't clean up fast neural style image"
 }
 
 function run_all() {
